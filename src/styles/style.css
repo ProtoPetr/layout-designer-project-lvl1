@@ -51,6 +51,14 @@
   line-height: 1.2em;
 }
 
+.font-size-12 {
+  font-size: 12px;
+}
+
+.font-size-14 {
+  font-size: 14px;
+}
+
 .font-size-52 {
   font-size: 52px;
 }
@@ -129,6 +137,10 @@ h3 {
   background-color: var(--dark);
 }
 
+.bg-mainDark {
+  background-color: var(--mainDark);
+}
+
 .bg-brown {
   background-color: var(--brown);
 }
@@ -137,7 +149,9 @@ h3 {
   background-color: var(--white);
 }
 
-
+.bg-yellow {
+  background: var(--mainColor);
+}
 
 /* Common */
 
@@ -213,6 +227,8 @@ section {
   width: calc(50% - 20px);
 }
 
+/* Margins */
+
 .mt-20 {
   margin-top: 20px;
 }
@@ -239,6 +255,10 @@ section {
 
 .mr-30 {
   margin-right: 30px;
+}
+
+.pd {
+  padding: 0;
 }
 
 .pt-100 {
@@ -309,4 +329,67 @@ nav {
 
 .animation:hover span {
   color: var(--white);
+}
+
+/* Footer */
+
+.footer-block {
+  display: flex;
+  justify-content: space-between;
+
+  width: 100%;
+  padding: 50px;
+}
+
+.footer-text {
+  width: 100%;
+
+  margin-top: 60px;
+
+  line-height: 2.5em;
+  text-align: center;
+}
+
+.footer-title {
+  margin-top: auto;
+  margin-bottom: auto;
+
+  font-size: 36px;
+}
+
+.mail-input-field {
+  width: 450px;
+  height: 10px;
+  padding: 15px;
+
+  font-size: 17px;
+}
+
+.footer-button {
+  position: absolute;
+  top: 26px;
+  left: 450px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 70px;
+  height: 44px;
+}
+
+.footer-button::before {
+  width: 30px;
+  height: 30px;
+  margin: 0 17px;
+
+  background: url(../../images/send.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  content: "";
+}
+
+.footer-mail-block {
+  position: relative;
+  right: 80px;
 }
