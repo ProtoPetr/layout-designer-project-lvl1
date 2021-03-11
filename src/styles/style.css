@@ -71,6 +71,10 @@
   color: var(--translucentDark);
 }
 
+.font-brown {
+  color: var(--brown);
+}
+
 /* Headings */
 
 h1 {
